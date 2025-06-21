@@ -22,5 +22,8 @@ Users should be able to contact the admin for new events or new clubs.
 Program and hardware: 
 	Developing this application using Java and its frameworks by NetBeans. Building up the prototype using Figma and its frameworks with a LoFi design. Hosting this application using GitHub and GitHub Pages.
 
-## Figma Link
+## Figma
 https://www.figma.com/design/kK0P88nF64wEueSn3IA0fU/csc325-final-project?node-id=3-3&t=Ml732b0sJWQnvCf4-1
+
+## Youtrack
+https://csc325-finalproject.youtrack.cloud/
