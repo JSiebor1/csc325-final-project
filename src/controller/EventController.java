@@ -49,4 +49,7 @@ public class EventController {
         String date = dateField.getText().trim();
         String location = locationField.getText().trim();
 
-        if (!name.isEmpty() && !date.isEmpty() && !location.isEmpty()) {
+        if (!name.isEmpty() && !date.isEmpty() && !location.isEmpty())
+    }
+}
+
