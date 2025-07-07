@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="571.0" prefWidth="894.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csc325_final_project.view.LoginController">
+   <children>
+      <BorderPane prefHeight="571.0" prefWidth="894.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+         <top>
+            <Label text="Welcome to our Club Phonebook! Login Here" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </top>
+         <center>
+            <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextField fx:id="EmailTF" layoutX="353.0" layoutY="138.0" />
+                  <Label layoutX="413.0" layoutY="121.0" text="Email" />
+                  <Label layoutX="402.0" layoutY="168.0" text="Password" />
+                  <PasswordField fx:id="PasswordTF" layoutX="353.0" layoutY="185.0" />
+                  <Button layoutX="353.0" layoutY="215.0" mnemonicParsing="false" onAction="#loginHandler" text="Login" />
+                  <Button layoutX="363.0" layoutY="313.0" mnemonicParsing="false" onAction="#registerHandler" text="Click here to Register" />
+               </children>
+            </Pane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
