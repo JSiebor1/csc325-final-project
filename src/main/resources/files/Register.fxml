@@ -17,7 +17,7 @@
             <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
          </padding>
          <top>
-            <Label text="Register Here" BorderPane.alignment="CENTER">
+            <Label text="Welcome to our Club Phonebook! Register Here" BorderPane.alignment="CENTER">
                <font>
                   <Font size="20.0" />
                </font>
@@ -26,16 +26,18 @@
          <center>
             <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                <children>
-                  <TextField fx:id="EmailTF" layoutX="353.0" layoutY="138.0" />
-                  <Label layoutX="413.0" layoutY="121.0" text="Email" />
-                  <Label layoutX="402.0" layoutY="171.0" text="Password" />
-                  <PasswordField fx:id="PasswordTF" layoutX="353.0" layoutY="188.0" />
-                  <Button layoutX="404.0" layoutY="431.0" mnemonicParsing="false" onAction="#loginHandler" text="Login" />
-                  <Button layoutX="361.0" layoutY="279.0" mnemonicParsing="false" onAction="#uploadHandler" text="Upload Profile Picture" />
-                  <TextField fx:id="PhoneTF" layoutX="353.0" layoutY="238.0" />
-                  <Label layoutX="387.0" layoutY="221.0" text="Phone Number" />
+                  <TextField fx:id="EmailTF" layoutX="353.0" layoutY="134.0" />
+                  <Label layoutX="413.0" layoutY="117.0" text="Email" />
+                  <Label layoutX="402.0" layoutY="211.0" text="Password" />
+                  <PasswordField fx:id="PasswordTF" layoutX="353.0" layoutY="228.0" />
+                  <Button layoutX="353.0" layoutY="305.0" mnemonicParsing="false" onAction="#registerHandler" text="Register" />
+                  <TextField fx:id="PhoneTF" layoutX="353.0" layoutY="181.0" />
+                  <Label layoutX="387.0" layoutY="164.0" text="Phone Number" />
                   <TextField fx:id="NameTF" layoutX="353.0" layoutY="87.0" />
                   <Label layoutX="390.0" layoutY="70.0" text="Display Name" />
+                  <Label layoutX="379.0" layoutY="258.0" text="Confirm Password" />
+                  <PasswordField fx:id="PasswordConfirmTF" layoutX="353.0" layoutY="275.0" />
+                  <Button layoutX="370.0" layoutY="364.0" mnemonicParsing="false" onAction="#loginHandler" text="Click here to Login" />
                </children>
             </Pane>
          </center>

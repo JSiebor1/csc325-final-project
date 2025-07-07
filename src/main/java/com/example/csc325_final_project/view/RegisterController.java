@@ -14,7 +14,7 @@ public class RegisterController {
 
     public void registerHandler(ActionEvent actionEvent) throws IOException {
         boolean registered = AccessFBView.registerUser(EmailTF.getText(), PasswordTF.getText(), PhoneTF.getText(), NameTF.getText());
-        // TODO: if registered, display a label saying the user can now login
+        // TODO if registered, display a label saying the user can now login, if user already exists, display error
     }
 
     public void loginHandler(ActionEvent actionEvent) throws IOException {
