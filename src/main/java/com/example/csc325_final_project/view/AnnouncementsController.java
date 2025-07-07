@@ -15,6 +15,7 @@ public class AnnouncementsController {
     }
 
     public void addRecordsHandler(ActionEvent actionEvent) {
+
     }
 
     public void searchRecordsHandler(ActionEvent actionEvent) {

@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4ae5f67-a013-4cbc-a589-49fa29fa9b6b" name="Changes" comment="Fixed Register fxml">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/AnnouncementsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/files/Announcements.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/LoginController.java" afterDir="false" />
-    </list>
+    <list default="true" id="e4ae5f67-a013-4cbc-a589-49fa29fa9b6b" name="Changes" comment="Added Announcements screen&#10;Added menu button" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -232,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751922334740</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added Announcements screen&#10;Added menu button">
+      <option name="closed" value="true" />
+      <created>1751925874094</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1751925874094</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +263,7 @@
     <MESSAGE value="Added simple scene swapping to login and register screen buttons" />
     <MESSAGE value="Added README.md" />
     <MESSAGE value="Fixed Register fxml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Register fxml" />
+    <MESSAGE value="Added Announcements screen&#10;Added menu button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Announcements screen&#10;Added menu button" />
   </component>
 </project>
