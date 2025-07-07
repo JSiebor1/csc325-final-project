@@ -12,17 +12,12 @@ public class RegisterController {
     public TextField PhoneTF;
     public TextField NameTF;
 
-    public void loginHandler(ActionEvent actionEvent) throws IOException {
+    public void registerHandler(ActionEvent actionEvent) throws IOException {
         boolean registered = AccessFBView.registerUser(EmailTF.getText(), PasswordTF.getText(), PhoneTF.getText(), NameTF.getText());
-        if(registered) {
-            App.setRoot("/files/Login.fxml");
-        }
+        // TODO: if registered, display a label saying the user can now login
     }
 
-    public void uploadHandler(ActionEvent actionEvent) {
-    }
-
-    public void mainMenuHandler(ActionEvent actionEvent) throws IOException {
-        App.setRoot("/files/AccessFBView.fxml");
+    public void loginHandler(ActionEvent actionEvent) throws IOException {
+        App.setRoot("/files/Login.fxml");
     }
 }
