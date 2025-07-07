@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="571.0" prefWidth="894.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csc325_final_project.view.AnnouncementsController">
+   <children>
+      <BorderPane prefHeight="571.0" prefWidth="894.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+         <top>
+            <Pane BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="355.0" text="Announcements">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <MenuButton alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="14.0" layoutY="4.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="63.0" text="Menu">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#announcementsHandler" text="Announcements" />
+                      <MenuItem mnemonicParsing="false" onAction="#addRecordsHandler" text="Add Records" />
+                        <MenuItem mnemonicParsing="false" onAction="#searchRecordsHandler" text="Search Records" />
+                        <MenuItem mnemonicParsing="false" onAction="#settingsHandler" text="Settings" />
+                        <MenuItem mnemonicParsing="false" onAction="#logoutHandler" text="Logout" />
+                    </items>
+                  </MenuButton>
+               </children>
+            </Pane>
+         </top>
+         <center>
+            <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextArea fx:id="announcementsTA" editable="false" layoutX="16.0" layoutY="30.0" prefHeight="447.0" prefWidth="823.0" wrapText="true" />
+                  <Label fx:id="welcomeLabel" layoutX="131.0" layoutY="6.0" text="Welcome User" />
+               </children>
+            </Pane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
