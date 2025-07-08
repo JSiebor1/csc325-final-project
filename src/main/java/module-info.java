@@ -13,6 +13,7 @@ module com.example.csc325_final_project {
 
     requires google.cloud.core;
     requires com.google.auth;
+    requires java.desktop;
 
 
     opens com.example.csc325_final_project.viewmodel to jdk.jsobject;

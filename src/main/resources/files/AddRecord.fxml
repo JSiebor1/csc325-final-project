@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="571.0" prefWidth="894.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csc325_final_project.view.AddRecordController">
+    <children>
+        <BorderPane prefHeight="571.0" prefWidth="894.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+            </padding>
+            <top>
+                <Pane BorderPane.alignment="CENTER">
+                    <children>
+                        <Label layoutX="353.0" layoutY="10.0" text="Add New Records">
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                        </Label>
+                        <MenuButton alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="14.0" layoutY="4.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="63.0" text="Menu">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#announcementsHandler" text="Announcements" />
+                                <MenuItem mnemonicParsing="false" onAction="#addRecordsHandler" text="Add Records" />
+                                <MenuItem mnemonicParsing="false" onAction="#searchRecordsHandler" text="Search Records" />
+                                <MenuItem mnemonicParsing="false" onAction="#settingsHandler" text="Settings" />
+                                <MenuItem mnemonicParsing="false" onAction="#logoutHandler" text="Logout" />
+                            </items>
+                        </MenuButton>
+                    </children>
+                </Pane>
+            </top>
+            <center>
+                <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <TextField fx:id="LnameTF" layoutX="353.0" layoutY="134.0" />
+                        <Label layoutX="353.0" layoutY="117.0" text="Last Name:" />
+                        <Label layoutX="353.0" layoutY="211.0" text="Position:" />
+                        <TextField fx:id="Position" layoutX="353.0" layoutY="228.0" />
+                        <Button layoutX="353.0" layoutY="305.0" mnemonicParsing="false" text="Add Record"/>
+                        <TextField fx:id="PhoneTF" layoutX="353.0" layoutY="181.0" />
+                        <Label layoutX="353.0" layoutY="164.0" text="Phone Number:" />
+                        <TextField fx:id="FnameTF" layoutX="353.0" layoutY="87.0" />
+                        <Label layoutX="353.0" layoutY="70.0" text="First Name:" />
+                        <Label layoutX="353.0" layoutY="258.0" text="Other Information:" />
+                        <TextField fx:id="OtherinfoTF" layoutX="353.0" layoutY="275.0" />
+                    </children>
+                </Pane>
+            </center>
+        </BorderPane>
+    </children>
+</AnchorPane>
