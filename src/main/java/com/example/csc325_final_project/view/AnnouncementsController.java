@@ -22,7 +22,7 @@ public class AnnouncementsController {
     }
 
     public void searchRecordsHandler(ActionEvent actionEvent) throws IOException {
-        App.setRoot("/files/AddRecord.fxml");
+        App.setRoot("/files/SearchRecord.fxml");
     }
 
     public void settingsHandler(ActionEvent actionEvent) {
