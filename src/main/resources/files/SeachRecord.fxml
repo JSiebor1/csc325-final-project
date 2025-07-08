@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csc325_final_project.view.SearchRecordController">
+   <children>
+      <Label layoutX="169.0" layoutY="15.0" text="Search Records">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Label>
+      <MenuButton layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Menu" AnchorPane.topAnchor="14.0">
+        <items>
+            <MenuItem mnemonicParsing="false" onAction="#recordListHandler" text="Record List" />
+            <MenuItem mnemonicParsing="false" onAction="#searchRecordsHandler" text="Search Record" />
+            <MenuItem mnemonicParsing="false" onAction="#addRecordsHandler" text="Add Record" />
+            <MenuItem mnemonicParsing="false" onAction="#announcementsHandler" text="Announcements" />
+            <MenuItem mnemonicParsing="false" text="Settings" />
+            <MenuItem mnemonicParsing="false" text="Log Out" />
+        </items>
+      </MenuButton>
+      <Button layoutX="272.0" layoutY="193.0" mnemonicParsing="false" text="Submit" />
+      <Label layoutX="258.0" layoutY="141.0" text="Search Record: " />
+      <TextField layoutX="220.0" layoutY="158.0" />
+      <ListView layoutX="66.0" layoutY="239.0" prefHeight="147.0" prefWidth="471.0" />
+      <Label layoutX="250.0" layoutY="84.0" text="Search Record By:" />
+      <TextField layoutX="220.0" layoutY="101.0" />
+   </children>
+</AnchorPane>

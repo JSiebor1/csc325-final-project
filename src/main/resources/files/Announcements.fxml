@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="571.0" prefWidth="894.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csc325_final_project.view.AnnouncementsController">
+<AnchorPane prefHeight="571.0" prefWidth="894.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csc325_final_project.view.AnnouncementsController">
    <children>
       <BorderPane prefHeight="571.0" prefWidth="894.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <padding>
@@ -26,7 +26,8 @@
                   </Label>
                   <MenuButton alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="14.0" layoutY="4.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="63.0" text="Menu">
                     <items>
-                      <MenuItem mnemonicParsing="false" onAction="#announcementsHandler" text="Announcements" />
+                        <MenuItem mnemonicParsing="false" onAction="#announcementsHandler" text="Main Menu" />
+                      <MenuItem mnemonicParsing="false" onAction="#recordListHandler" text="Record List" />
                       <MenuItem mnemonicParsing="false" onAction="#addRecordsHandler" text="Add Records" />
                         <MenuItem mnemonicParsing="false" onAction="#searchRecordsHandler" text="Search Records" />
                         <MenuItem mnemonicParsing="false" onAction="#settingsHandler" text="Settings" />

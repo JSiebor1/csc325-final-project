@@ -4,7 +4,8 @@ import javafx.event.ActionEvent;
 
 import java.io.IOException;
 
-public class AddRecordController {
+public class RecordListController {
+
     public void announcementsHandler(ActionEvent actionEvent) throws IOException {
         App.setRoot("/files/Announcements.fxml");
     }

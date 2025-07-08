@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csc325_final_project.view.RecordListController">
+   <children>
+      <Label layoutX="206.0" layoutY="14.0" text="Record List">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Label>
+      <TableView layoutX="43.0" layoutY="88.0" prefHeight="271.0" prefWidth="518.0" tableMenuButtonVisible="true">
+        <columns>
+          <TableColumn prefWidth="111.0" text="Name" />
+          <TableColumn prefWidth="127.0" text="Position/Club" />
+            <TableColumn prefWidth="116.0" text="Phone Number" />
+            <TableColumn prefWidth="148.0" text="Email" />
+        </columns>
+      </TableView>
+      <MenuButton layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Menu">
+        <items>
+            <MenuItem mnemonicParsing="false" onAction="#recordListHandler" text="Record List" />
+            <MenuItem mnemonicParsing="false" onAction="#searchRecordsHandler" text="Search Record" />
+            <MenuItem mnemonicParsing="false" onAction="#addRecordsHandler" text="Add Record" />
+            <MenuItem mnemonicParsing="false" onAction="#announcementsHandler" text="Announcements" />
+            <MenuItem mnemonicParsing="false" text="Settings" />
+            <MenuItem mnemonicParsing="false" text="Log Out" />
+        </items>
+      </MenuButton>
+   </children>
+</AnchorPane>
