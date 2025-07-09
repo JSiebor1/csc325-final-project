@@ -1,37 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.MenuButton?>
 <?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csc325_final_project.view.RecordListController">
+<AnchorPane prefHeight="571.0" prefWidth="894.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csc325_final_project.view.SearchRecordController">
    <children>
-      <Label layoutX="206.0" layoutY="14.0" text="Record List">
-         <font>
-            <Font name="System Bold" size="40.0" />
-         </font>
-      </Label>
-      <TableView layoutX="43.0" layoutY="88.0" prefHeight="271.0" prefWidth="518.0" tableMenuButtonVisible="true">
-        <columns>
-          <TableColumn prefWidth="111.0" text="Name" />
-          <TableColumn prefWidth="127.0" text="Position/Club" />
-            <TableColumn prefWidth="116.0" text="Phone Number" />
-            <TableColumn prefWidth="148.0" text="Email" />
-        </columns>
-      </TableView>
-      <MenuButton layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Menu">
-        <items>
-            <MenuItem mnemonicParsing="false" onAction="#recordListHandler" text="Record List" />
-            <MenuItem mnemonicParsing="false" onAction="#searchRecordsHandler" text="Search Record" />
-            <MenuItem mnemonicParsing="false" onAction="#addRecordsHandler" text="Add Record" />
-            <MenuItem mnemonicParsing="false" onAction="#announcementsHandler" text="Announcements" />
-            <MenuItem mnemonicParsing="false" text="Settings" />
-            <MenuItem mnemonicParsing="false" text="Log Out" />
-        </items>
-      </MenuButton>
+      <BorderPane prefHeight="571.0" prefWidth="894.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <Pane BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="349.0" text="Record List">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                  </Label>
+                  <MenuButton alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="14.0" layoutY="4.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="63.0" text="Menu">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#announcementsHandler" text="Main Menu" />
+                        <MenuItem mnemonicParsing="false" onAction="#recordListHandler" text="Record List" />
+                        <MenuItem mnemonicParsing="false" onAction="#addRecordsHandler" text="Add Records" />
+                        <MenuItem mnemonicParsing="false" onAction="#searchRecordsHandler" text="Search Records" />
+                        <MenuItem mnemonicParsing="false" onAction="#settingsHandler" text="Settings" />
+                        <MenuItem mnemonicParsing="false" onAction="#logoutHandler" text="Logout" />
+                     </items>
+                  </MenuButton>
+               </children>
+            </Pane>
+         </top>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+         <center>
+            <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ScrollPane layoutX="64.0" layoutY="37.0" prefHeight="419.0" prefWidth="727.0">
+                     <content>
+                        <TableView prefHeight="422.0" prefWidth="712.0">
+                           <columns>
+                              <TableColumn prefWidth="75.0" text="First Name" />
+                              <TableColumn prefWidth="75.0" text="Last Name" />
+                              <TableColumn prefWidth="75.0" text="Club" />
+                              <TableColumn prefWidth="75.0" text="Position" />
+                              <TableColumn prefWidth="91.199951171875" text="Phone Number" />
+                              <TableColumn prefWidth="91.199951171875" text="Email" />
+                              <TableColumn prefWidth="228.0" text="Other Information" />
+                           </columns>
+                        </TableView>
+                     </content>
+                  </ScrollPane>
+               </children>
+            </Pane>
+         </center>
+      </BorderPane>
    </children>
 </AnchorPane>
