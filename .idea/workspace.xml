@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4ae5f67-a013-4cbc-a589-49fa29fa9b6b" name="Changes" comment="Fixed SearchRecord FXML">
+    <list default="true" id="e4ae5f67-a013-4cbc-a589-49fa29fa9b6b" name="Changes" comment="Touched up FXML styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/files/AddRecord.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/AddRecord.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/files/Announcements.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/Announcements.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/files/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/Login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/files/RecordList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/RecordList.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/files/Register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/Register.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/files/SearchRecord.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/SearchRecord.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752016645212</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Touched up FXML styles">
+      <option name="closed" value="true" />
+      <created>1752077074679</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1752077074679</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +295,7 @@
     <MESSAGE value="Fixed Register fxml" />
     <MESSAGE value="Added Announcements screen&#10;Added menu button" />
     <MESSAGE value="Fixed SearchRecord FXML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed SearchRecord FXML" />
+    <MESSAGE value="Touched up FXML styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Touched up FXML styles" />
   </component>
 </project>
