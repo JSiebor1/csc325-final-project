@@ -1,10 +1,19 @@
 package com.example.csc325_final_project.view;
 
 import javafx.event.ActionEvent;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
 
 import java.io.IOException;
 
 public class AddRecordController {
+    public TextField LnameTF;
+    public TextField PhoneTF;
+    public TextField FnameTF;
+    public TextField OtherTF;
+    public TextField PositionTF;
+    public TextField EmailTF;
+
     public void announcementsHandler(ActionEvent actionEvent) throws IOException {
         App.setRoot("/files/Announcements.fxml");
     }
@@ -24,5 +33,10 @@ public class AddRecordController {
     }
 
     public void logoutHandler(ActionEvent actionEvent) {
+    }
+
+    public void addRecordButtonHandler(ActionEvent actionEvent) {
+        // add info from textfields into document
+
     }
 }
