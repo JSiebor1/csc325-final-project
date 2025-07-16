@@ -25,7 +25,7 @@
                   </Label>
                   <MenuButton alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="14.0" layoutY="4.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="63.0" text="Menu">
                      <items>
-                        <MenuItem mnemonicParsing="false" onAction="#announcementsHandler" text="Main Menu" />
+                        <MenuItem mnemonicParsing="false" onAction="#announcementsHandler" text="Announcements" />
                         <MenuItem mnemonicParsing="false" onAction="#recordListHandler" text="Record List" />
                         <MenuItem mnemonicParsing="false" onAction="#addRecordsHandler" text="Add Records" />
                         <MenuItem mnemonicParsing="false" onAction="#searchRecordsHandler" text="Search Records" />
