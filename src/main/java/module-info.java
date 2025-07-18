@@ -14,6 +14,10 @@ module com.example.csc325_final_project {
     requires google.cloud.core;
     requires com.google.auth;
     requires java.desktop;
+    requires org.apache.httpcomponents.httpclient;
+    requires com.google.gson;
+    requires java.net.http;
+    requires com.google.api.services.storage;
 
 
     opens com.example.csc325_final_project.viewmodel to jdk.jsobject;

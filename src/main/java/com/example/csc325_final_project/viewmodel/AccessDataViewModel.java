@@ -1,32 +1,34 @@
 package com.example.csc325_final_project.viewmodel;
 
 
-
-import javafx.beans.property.ReadOnlyBooleanProperty;
-import javafx.beans.property.ReadOnlyBooleanWrapper;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
+
 public class AccessDataViewModel {
 
-	private final StringProperty userName = new SimpleStringProperty();
-	private final StringProperty userMajor = new SimpleStringProperty();
-        private final int age=0;
-	private final ReadOnlyBooleanWrapper writePossible = new ReadOnlyBooleanWrapper();
+	// this is for the table view on record list
 
-	public AccessDataViewModel() {
-		writePossible.bind(userName.isNotEmpty().and(userMajor.isNotEmpty()));
-	}
+	private StringProperty fName = new SimpleStringProperty();
+	private StringProperty lName = new SimpleStringProperty();
+	private StringProperty position = new SimpleStringProperty();
+	private StringProperty phoneNum = new SimpleStringProperty();
+	private StringProperty email = new SimpleStringProperty();
+	private StringProperty other = new SimpleStringProperty();
 
-	public StringProperty userNameProperty() {
-		return userName;
-	}
 
-	public StringProperty userMajorProperty() {
-		return userMajor;
-	}
+	public StringProperty fNameProperty() { return fName; }
+	public String getFName() {return fName.get();}
+	public StringProperty lNameProperty() { return lName; }
+	public String getLName() {return lName.get();}
+	public StringProperty positionProperty() { return position; }
+	public String getPosition() {return position.get();}
+	public StringProperty phoneNumProperty() { return phoneNum; }
+	public String getPhoneNum() {return phoneNum.get();}
+	public StringProperty emailProperty() { return email; }
+	public String getEmail() {return email.get();}
+	public StringProperty otherProperty() {return other;}
+	public String getOther() {return other.get();}
 
-	public ReadOnlyBooleanProperty isWritePossibleProperty() {
-		return writePossible.getReadOnlyProperty();
-	}
+
 }

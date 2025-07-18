@@ -4,6 +4,9 @@ import javafx.event.ActionEvent;
 
 import java.io.IOException;
 
+// can search records by table columns
+// TODO: need to finish this! and settings page!
+
 public class SearchRecordController {
 
     public void announcementsHandler(ActionEvent actionEvent) throws IOException {
@@ -21,9 +24,10 @@ public class SearchRecordController {
         App.setRoot("/files/SearchRecord.fxml");
     }
 
-    public void settingsHandler(ActionEvent actionEvent) {
+    public void settingsHandler(ActionEvent actionEvent) throws IOException {
     }
 
-    public void logoutHandler(ActionEvent actionEvent) {
+    public void logoutHandler(ActionEvent actionEvent) throws IOException {
+        App.setRoot("/files/Login.fxml");
     }
 }
