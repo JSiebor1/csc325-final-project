@@ -12,11 +12,11 @@ User requirements:
 The app must have a clean, interactive interface.
 User-friendly interactions and easy to use with navigating every page. 
 Personalized profiles and clear visibility with the main page.
-Users should be able to search for clubs or people by name, position, or category.
+Users should be able to search for anyone in any club by name, position, or category.
 Users should be able to see a list of contact information of people within any club.
-Users should be able to favorite a club for easy access. 
-Admins should be able to approve new clubs.
-Admins should be able to upload new events that will be posted on the app.
+Useer should be able to see new announcements on the main page.
+Admins should be able to approve new club event posters.
+Admins should be able to upload new events that will be posted on the main page.
 Users should be able to contact the admin for new events or new clubs. 
 
 Program and hardware: 
