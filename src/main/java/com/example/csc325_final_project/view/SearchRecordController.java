@@ -24,10 +24,12 @@ public class SearchRecordController {
         App.setRoot("/files/SearchRecord.fxml");
     }
 
-    public void settingsHandler(ActionEvent actionEvent) throws IOException {
+    public void themeHandler(ActionEvent actionEvent) {
     }
 
     public void logoutHandler(ActionEvent actionEvent) throws IOException {
         App.setRoot("/files/Login.fxml");
     }
+
+
 }

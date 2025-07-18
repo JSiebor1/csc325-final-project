@@ -54,6 +54,7 @@ public class RegisterController {
         try {
             FileInputStream fileInput = new FileInputStream("config.properties");
             prop.load(fileInput);
+            System.out.println(prop.getProperty("apiKey"));
             return prop.getProperty("apiKey");
         } catch (IOException e) {
             e.printStackTrace();

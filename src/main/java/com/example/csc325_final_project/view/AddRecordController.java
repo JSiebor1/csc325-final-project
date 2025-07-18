@@ -79,7 +79,7 @@ public class AddRecordController {
         App.setRoot("/files/SearchRecord.fxml");
     }
 
-    public void settingsHandler(ActionEvent actionEvent) {
+    public void themeHandler(ActionEvent actionEvent) {
     }
 
     public void logoutHandler(ActionEvent actionEvent) throws IOException {

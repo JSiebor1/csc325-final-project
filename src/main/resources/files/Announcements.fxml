@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="571.0" prefWidth="894.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csc325_final_project.view.AnnouncementsController">
+<AnchorPane prefHeight="571.0" prefWidth="894.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csc325_final_project.view.AnnouncementsController">
    <children>
       <BorderPane prefHeight="571.0" prefWidth="894.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <padding>
@@ -19,18 +19,18 @@
          <top>
             <Pane BorderPane.alignment="CENTER">
                <children>
-                  <Label layoutX="355.0" text="Announcements">
+                  <Label layoutX="312.0" text="Announcements">
                      <font>
-                        <Font size="20.0" />
+                        <Font name="System Bold" size="30.0" />
                      </font>
                   </Label>
                   <MenuButton alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="14.0" layoutY="4.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="78.0" text="Menu">
                     <items>
-                        <MenuItem mnemonicParsing="false" onAction="#announcementsHandler" text="Main Menu" />
+                        <MenuItem mnemonicParsing="false" onAction="#announcementsHandler" text="Announcements" />
                         <MenuItem mnemonicParsing="false" onAction="#recordListHandler" text="Record List" />
                         <MenuItem mnemonicParsing="false" onAction="#searchRecordsHandler" text="Search Records" />
                         <MenuItem mnemonicParsing="false" onAction="#addRecordsHandler" text="Add Records" />
-                        <MenuItem mnemonicParsing="false" onAction="#settingsHandler" text="Settings" />
+                        <MenuItem mnemonicParsing="false" onAction="#themeHandler" text="Cycle Theme" />
                         <MenuItem mnemonicParsing="false" onAction="#logoutHandler" text="Logout" />
                     </items>
                   </MenuButton>
@@ -41,7 +41,10 @@
             <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                <children>
                   <TextArea fx:id="announcementsTA" editable="false" layoutX="16.0" layoutY="30.0" prefHeight="447.0" prefWidth="823.0" wrapText="true" />
-                  <Label fx:id="welcomeLabel" layoutX="131.0" layoutY="6.0" text="Welcome user!" />
+                  <Label fx:id="welcomeLabel" layoutX="118.0" layoutY="-1.0" text="Welcome user!">
+                     <font>
+                        <Font size="20.0" />
+                     </font></Label>
                </children>
             </Pane>
          </center>

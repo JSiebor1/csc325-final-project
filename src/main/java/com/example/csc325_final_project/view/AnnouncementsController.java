@@ -42,7 +42,7 @@ public class AnnouncementsController {
     }
 
     @FXML
-    public void settingsHandler(ActionEvent actionEvent) {
+    public void themeHandler(ActionEvent actionEvent) {
     }
 
     @FXML
