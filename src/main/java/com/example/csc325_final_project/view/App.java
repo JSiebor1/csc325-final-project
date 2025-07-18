@@ -17,6 +17,7 @@ public class App extends Application {
     public static FirebaseAuth fauth;
     public static Scene scene;
     private final FirestoreContext contxtFirebase = new FirestoreContext();
+    static int style = 1;
 
     @Override
     public void start(Stage primaryStage) throws Exception {
@@ -34,6 +35,19 @@ public class App extends Application {
     private static Parent loadFXML(String fxml) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource(fxml ));
         return fxmlLoader.load();
+    }
+
+    public static void changeStyle() {
+        if(style == 0) {
+            scene.getStylesheets().clear();
+            scene.getStylesheets().add(App.class.getResource("/files/default.css").toExternalForm());
+            style++;
+        }
+        else if(style == 1) {
+            scene.getStylesheets().clear();
+            scene.getStylesheets().add(App.class.getResource("/files/dark.css").toExternalForm());
+            style--;
+        }
     }
 
     public static void main(String[] args) {

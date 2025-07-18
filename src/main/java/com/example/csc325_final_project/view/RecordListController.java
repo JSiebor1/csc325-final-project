@@ -88,6 +88,7 @@ public class RecordListController implements Initializable {
     }
 
     public void themeHandler(ActionEvent actionEvent) {
+        App.changeStyle();
     }
 
     public void logoutHandler(ActionEvent actionEvent) throws IOException {

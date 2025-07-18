@@ -4,21 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4ae5f67-a013-4cbc-a589-49fa29fa9b6b" name="Changes" comment="no apiKey included">
+    <list default="true" id="e4ae5f67-a013-4cbc-a589-49fa29fa9b6b" name="Changes" comment="Fixed continuity between scenes">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/files/dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/files/default.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/AddRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/AddRecordController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/AnnouncementsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/AnnouncementsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/RecordListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/RecordListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/RegisterController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/SearchRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/SearchRecordController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/files/AddRecord.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/AddRecord.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/files/Announcements.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/Announcements.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/files/RecordList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/RecordList.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/files/Register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/Register.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/files/SearchRecord.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/SearchRecord.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/RegisterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/files/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/files/Login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/AddRecordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/AddRecordController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/AnnouncementsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/AnnouncementsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/RecordListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/RecordListController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/SearchRecordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/SearchRecordController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/files/AddRecord.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/files/AddRecord.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/files/Announcements.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/files/Announcements.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/files/RecordList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/files/RecordList.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/files/Register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/files/Register.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/files/SearchRecord.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/files/SearchRecord.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752015912993</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fixed continuity between scenes">
+      <option name="closed" value="true" />
+      <created>1752855247236</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1752855247236</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +314,8 @@
     <MESSAGE value="Added Announcements screen&#10;Added menu button" />
     <MESSAGE value="added 2 more screens" />
     <MESSAGE value="no apiKey included" />
-    <option name="LAST_COMMIT_MESSAGE" value="no apiKey included" />
+    <MESSAGE value="Fixed continuity between scenes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed continuity between scenes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

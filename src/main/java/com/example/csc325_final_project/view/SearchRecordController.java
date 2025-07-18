@@ -25,6 +25,7 @@ public class SearchRecordController {
     }
 
     public void themeHandler(ActionEvent actionEvent) {
+        App.changeStyle();
     }
 
     public void logoutHandler(ActionEvent actionEvent) throws IOException {

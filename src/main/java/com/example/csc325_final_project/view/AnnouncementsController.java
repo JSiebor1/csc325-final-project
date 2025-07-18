@@ -43,6 +43,7 @@ public class AnnouncementsController {
 
     @FXML
     public void themeHandler(ActionEvent actionEvent) {
+        App.changeStyle();
     }
 
     @FXML
