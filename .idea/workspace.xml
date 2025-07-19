@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4ae5f67-a013-4cbc-a589-49fa29fa9b6b" name="Changes" comment="search page done / added colors">
-      <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/files/key.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e4ae5f67-a013-4cbc-a589-49fa29fa9b6b" name="Changes" comment="Fixed continuity between scenes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,21 +28,14 @@
     &quot;assignee&quot;: &quot;JSiebor1&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/JSiebor1/csc325-final-project.git",
-    "accountId": "d696498b-eb7d-42af-a364-4d2c0e740ed8"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JSiebor1/csc325-final-project.git&quot;,
+    &quot;accountId&quot;: &quot;72a35242-3316-4e32-9ccd-18d9186b1d78&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -86,11 +75,11 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/example/csc325_firebase_webview_auth/viewmodel" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/files/images" />
-      <recent name="$PROJECT_DIR$/src/main/resources/images" />
       <recent name="C:\Users\jsieb\Documents\School\Farmingdale\24-25\Summer 25\CSC 325\csc325-final-project\src\main\resources\files" />
       <recent name="C:\Users\jsieb\Documents\School\Farmingdale\24-25\Summer 25\CSC 325\CSC325_Firebase_webview_Auth_StarterCode\src\main\java\com\example\csc325_firebase_webview_auth\view" />
       <recent name="C:\Users\jsieb\Documents\School\Farmingdale\24-25\Summer 25\CSC 325\CSC325_Firebase_webview_Auth_StarterCode\src\main\resources\files" />
+      <recent name="$PROJECT_DIR$/src/main/resources/files" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.csc325_firebase_webview_auth.viewmodel" />
@@ -275,23 +264,7 @@
       <option name="project" value="LOCAL" />
       <updated>1752855247236</updated>
     </task>
-    <task id="LOCAL-00013" summary="search page done / added colors">
-      <option name="closed" value="true" />
-      <created>1752892863364</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1752892863364</updated>
-    </task>
-    <task id="LOCAL-00014" summary="search page done / added colors">
-      <option name="closed" value="true" />
-      <created>1752892931999</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1752892931999</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,8 +296,7 @@
     <MESSAGE value="added 2 more screens" />
     <MESSAGE value="no apiKey included" />
     <MESSAGE value="Fixed continuity between scenes" />
-    <MESSAGE value="search page done / added colors" />
-    <option name="LAST_COMMIT_MESSAGE" value="search page done / added colors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed continuity between scenes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

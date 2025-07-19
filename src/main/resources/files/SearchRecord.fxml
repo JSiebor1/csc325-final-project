@@ -17,7 +17,7 @@
 <?import javafx.scene.shape.CubicCurve?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="571.0" prefWidth="894.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csc325_final_project.view.SearchRecordController">
+<AnchorPane prefHeight="571.0" prefWidth="894.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csc325_final_project.view.SearchRecordController">
    <children>
       <BorderPane prefHeight="571.0" prefWidth="894.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <top>
@@ -66,7 +66,7 @@
                         </TableView>
                      </content>
                   </ScrollPane>
-                  <ChoiceBox fx:id="choiceBox" layoutX="357.0" layoutY="74.0" prefWidth="150.0" />
+                  <ChoiceBox fx:id="choiceBox" layoutX="352.0" layoutY="77.0" prefWidth="150.0" />
                   <Circle fill="#ffd300" layoutX="106.0" layoutY="74.0" radius="21.0" stroke="BLACK" strokeType="INSIDE" />
                   <Circle fill="#ffd300" layoutX="747.0" layoutY="142.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
                   <Circle fill="#ffd300" layoutX="739.0" layoutY="68.0" radius="21.0" stroke="BLACK" strokeType="INSIDE" />
