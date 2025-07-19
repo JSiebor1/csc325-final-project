@@ -4,30 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4ae5f67-a013-4cbc-a589-49fa29fa9b6b" name="Changes" comment="Fixed continuity between scenes">
+    <list default="true" id="e4ae5f67-a013-4cbc-a589-49fa29fa9b6b" name="Changes" comment="search page done / added colors">
       <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/files/images/upcomingPic.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/files/key.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/model/RecordData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/model/RecordData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/AddRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/AddRecordController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/RecordListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/RecordListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/SearchRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/SearchRecordController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/viewmodel/AccessDataViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/viewmodel/AccessDataViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/files/AddRecord.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/AddRecord.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/files/Announcements.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/Announcements.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/files/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/Login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/files/RecordList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/RecordList.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/files/Register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/Register.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/files/SearchRecord.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/SearchRecord.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/AddRecordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/AddRecordController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/RecordListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/RecordListController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/SearchRecordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/SearchRecordController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/files/AddRecord.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/files/AddRecord.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/files/Announcements.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/files/Announcements.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/files/RecordList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/files/RecordList.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/files/SearchRecord.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/files/SearchRecord.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -295,7 +275,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752855247236</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="search page done / added colors">
+      <option name="closed" value="true" />
+      <created>1752892863364</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1752892863364</updated>
+    </task>
+    <task id="LOCAL-00014" summary="search page done / added colors">
+      <option name="closed" value="true" />
+      <created>1752892931999</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1752892931999</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +323,8 @@
     <MESSAGE value="added 2 more screens" />
     <MESSAGE value="no apiKey included" />
     <MESSAGE value="Fixed continuity between scenes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed continuity between scenes" />
+    <MESSAGE value="search page done / added colors" />
+    <option name="LAST_COMMIT_MESSAGE" value="search page done / added colors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -9,7 +9,6 @@ import javafx.scene.control.TextArea;
 import java.io.IOException;
 
 // getting user name and showing the announcements
-//TODO: the announcements inputs
 
 public class AnnouncementsController {
     public TextArea announcementsTA;

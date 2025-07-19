@@ -17,7 +17,6 @@ import java.util.Map;
 import java.util.concurrent.ExecutionException;
 
 // can search records by table columns
-// TODO: need to finish this! and settings page!
 
 public class SearchRecordController {
 
