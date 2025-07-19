@@ -5,25 +5,25 @@
 <?import javafx.scene.control.MenuButton?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.CubicCurve?>
+<?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="571.0" prefWidth="894.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csc325_final_project.view.AnnouncementsController">
+<AnchorPane prefHeight="571.0" prefWidth="894.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csc325_final_project.view.AnnouncementsController">
    <children>
-      <BorderPane prefHeight="571.0" prefWidth="894.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <BorderPane layoutY="6.0" prefHeight="571.0" prefWidth="894.0" AnchorPane.bottomAnchor="-6.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="6.0">
          <padding>
             <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
          </padding>
          <top>
             <Pane BorderPane.alignment="CENTER">
                <children>
-                  <Label layoutX="312.0" text="Announcements">
-                     <font>
-                        <Font name="System Bold" size="30.0" />
-                     </font>
-                  </Label>
+                  <CubicCurve controlX1="-51.5" controlX2="52.5" controlY1="-115.5" controlY2="115.5" endX="439.0" endY="-25.0" fill="#ffd300" layoutX="415.0" layoutY="25.0" startX="-415.0" startY="21.0" stroke="BLACK" />
                   <MenuButton alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="14.0" layoutY="4.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="78.0" text="Menu">
                     <items>
                         <MenuItem mnemonicParsing="false" onAction="#announcementsHandler" text="Announcements" />
@@ -34,6 +34,11 @@
                         <MenuItem mnemonicParsing="false" onAction="#logoutHandler" text="Logout" />
                     </items>
                   </MenuButton>
+                  <Label layoutX="289.0" layoutY="1.0" text="Announcements" underline="true">
+                     <font>
+                        <Font name="System Bold" size="40.0" />
+                     </font>
+                  </Label>
                </children>
             </Pane>
          </top>
@@ -45,9 +50,20 @@
                      <font>
                         <Font size="20.0" />
                      </font></Label>
+                  <ImageView fitHeight="419.0" fitWidth="560.0" layoutX="150.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/upcomingPic.png" />
+                     </image>
+                  </ImageView>
+                  <Line endX="-100.0" endY="457.0" layoutX="91.0" layoutY="30.0" startX="-100.0" stroke="#ffd300" />
+                  <Line endX="100.0" layoutX="761.0" layoutY="30.0" startX="100.0" startY="452.0" stroke="#ffd300" />
                </children>
             </Pane>
          </center>
+         <left>
+            <Line endX="-100.0" endY="457.0" startX="-100.0" stroke="#ffd300" BorderPane.alignment="CENTER" />
+         </left>
       </BorderPane>
+      <Line endX="100.0" endY="57.5" layoutX="771.0" layoutY="40.0" startX="100.0" startY="517.0" stroke="#ffd300" />
    </children>
 </AnchorPane>

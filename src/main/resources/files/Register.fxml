@@ -8,24 +8,29 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.CubicCurve?>
+<?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="571.0" prefWidth="894.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csc325_final_project.view.RegisterController">
+<AnchorPane prefHeight="571.0" prefWidth="894.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csc325_final_project.view.RegisterController">
    <children>
       <BorderPane prefHeight="571.0" prefWidth="894.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <padding>
             <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
          </padding>
          <top>
-            <Label text="Welcome to our Club Phonebook! Register Here" BorderPane.alignment="CENTER">
+            <Label prefHeight="89.0" prefWidth="504.0" text="Welcome to our Club Phonebook! &#10;Register Here" textAlignment="CENTER" BorderPane.alignment="CENTER">
                <font>
-                  <Font name="System Bold" size="30.0" />
+                  <Font name="System Bold" size="35.0" />
                </font>
             </Label>
          </top>
          <center>
             <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd300" height="343.0" layoutX="323.0" layoutY="74.0" stroke="BLACK" strokeType="INSIDE" width="220.0" />
+                  <CubicCurve controlX1="-50.0" controlX2="50.0" controlY1="-100.0" controlY2="100.0" endX="374.0" fill="#ffd300" layoutX="432.0" layoutY="74.0" startX="-390.5" stroke="BLACK" />
                   <TextField fx:id="emailField" layoutX="353.0" layoutY="115.0" />
                   <Label layoutX="412.0" layoutY="92.0" text="Email" />
                   <Label layoutX="402.0" layoutY="148.0" text="Password" />
@@ -34,7 +39,18 @@
                   <Label layoutX="379.0" layoutY="208.0" text="Confirm Password" />
                   <PasswordField fx:id="confirmPasswordField" layoutX="353.0" layoutY="233.0" />
                   <Button layoutX="370.0" layoutY="364.0" mnemonicParsing="false" onAction="#loginHandler" text="Click here to Login" />
-                  <Label fx:id="errorLabel" layoutX="356.0" layoutY="63.0" prefHeight="17.0" prefWidth="157.0" textAlignment="CENTER" />
+                  <Label fx:id="errorLabel" layoutX="354.0" layoutY="16.0" prefHeight="18.0" prefWidth="201.0" textAlignment="CENTER" />
+                  <CubicCurve controlX1="-50.0" controlX2="50.0" controlY1="-100.0" controlY2="100.0" endX="380.0" fill="#ffd300" layoutX="445.0" layoutY="417.0" startX="-398.0" stroke="BLACK" />
+                  <Circle fill="#ffd300" layoutX="191.0" layoutY="246.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#ffd300" layoutX="129.0" layoutY="320.0" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#ffd300" layoutX="103.0" layoutY="141.0" radius="23.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#ffd300" layoutX="191.0" layoutY="172.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#ffd300" layoutX="103.0" layoutY="225.0" radius="21.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#ffd300" layoutX="662.0" layoutY="309.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#ffd300" layoutX="641.0" layoutY="237.0" radius="21.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#ffd300" layoutX="744.0" layoutY="221.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#ffd300" layoutX="709.0" layoutY="165.0" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#ffd300" layoutX="724.0" layoutY="346.0" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
                </children>
             </Pane>
          </center>

@@ -19,6 +19,8 @@ import static com.example.csc325_final_project.view.App.fstore;
 
 public class AddRecordController {
 
+    @FXML private TextField clubField;
+
     @FXML private TextField emailField;
 
     @FXML private TextField fNameField;
@@ -35,6 +37,7 @@ public class AddRecordController {
     void addRecordButton(ActionEvent event) throws ExecutionException, InterruptedException {
         String fName = fNameField.getText();
         String lName = lNameField.getText();
+        String club = clubField.getText();
         String position = positionField.getText();
         String phoneNum = phoneNumField.getText();
         String email = emailField.getText();
@@ -47,6 +50,7 @@ public class AddRecordController {
         Map<String, Object> record = new HashMap<>();
         record.put("firstName", fName);
         record.put("lastName", lName);
+        record.put("club", club);
         record.put("position", position);
         record.put("phoneNum", phoneNum);
         record.put("email", email);
@@ -57,6 +61,7 @@ public class AddRecordController {
 
         fNameField.clear();
         lNameField.clear();
+        clubField.clear();
         positionField.clear();
         phoneNumField.clear();
         emailField.clear();

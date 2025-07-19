@@ -5,23 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4ae5f67-a013-4cbc-a589-49fa29fa9b6b" name="Changes" comment="Fixed continuity between scenes">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/files/dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/files/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/files/images/upcomingPic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/files/key.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/model/RecordData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/model/RecordData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/AddRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/AddRecordController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/AnnouncementsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/AnnouncementsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/RecordListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/RecordListController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/SearchRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/view/SearchRecordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/viewmodel/AccessDataViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc325_final_project/viewmodel/AccessDataViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/files/AddRecord.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/AddRecord.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/files/Announcements.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/Announcements.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/files/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/Login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/files/RecordList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/RecordList.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/files/Register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/Register.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/files/SearchRecord.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/SearchRecord.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/AddRecordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/AddRecordController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/AnnouncementsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/AnnouncementsController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/RecordListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/RecordListController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/SearchRecordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/csc325_final_project/view/SearchRecordController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/files/AddRecord.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/files/AddRecord.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/files/Announcements.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/files/Announcements.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/files/RecordList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/files/RecordList.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/files/Register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/files/Register.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/files/SearchRecord.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/files/SearchRecord.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,11 +55,18 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/JSiebor1/csc325-final-project.git",
-    "accountId": "72a35242-3316-4e32-9ccd-18d9186b1d78"
+    "accountId": "d696498b-eb7d-42af-a364-4d2c0e740ed8"
   }
 }]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -64,29 +76,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jsieb/Documents/School/Farmingdale/24-25/Summer 25/CSC 325/csc325-final-project/src/main/resources/files",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Global Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jsieb/Documents/School/Farmingdale/24-25/Summer 25/CSC 325/csc325-final-project/src/main/resources/files&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jsieb\Documents\School\Farmingdale\24-25\Summer 25\CSC 325\csc325-final-project\src\main\resources\files" />
@@ -94,11 +106,11 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/example/csc325_firebase_webview_auth/viewmodel" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/files/images" />
+      <recent name="$PROJECT_DIR$/src/main/resources/images" />
       <recent name="C:\Users\jsieb\Documents\School\Farmingdale\24-25\Summer 25\CSC 325\csc325-final-project\src\main\resources\files" />
       <recent name="C:\Users\jsieb\Documents\School\Farmingdale\24-25\Summer 25\CSC 325\CSC325_Firebase_webview_Auth_StarterCode\src\main\java\com\example\csc325_firebase_webview_auth\view" />
       <recent name="C:\Users\jsieb\Documents\School\Farmingdale\24-25\Summer 25\CSC 325\CSC325_Firebase_webview_Auth_StarterCode\src\main\resources\files" />
-      <recent name="$PROJECT_DIR$/src/main/resources/files" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.csc325_firebase_webview_auth.viewmodel" />

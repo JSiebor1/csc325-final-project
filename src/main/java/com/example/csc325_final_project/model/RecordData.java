@@ -9,6 +9,7 @@ package com.example.csc325_final_project.model;
 public class RecordData {
     private String fName;
     private String lName;
+    private String club;
     private String position;
     private String phoneNum;
     private String email;
@@ -16,9 +17,10 @@ public class RecordData {
 
     public RecordData() {}
 
-    public RecordData(String fName, String lName, String position, String phoneNum, String email, String other) {
+    public RecordData(String fName, String lName, String club, String position, String phoneNum, String email, String other) {
         this.fName = fName;
         this.lName = lName;
+        this.club = club;
         this.position = position;
         this.phoneNum = phoneNum;
         this.email = email;
@@ -27,6 +29,7 @@ public class RecordData {
 
     public String getFName() { return fName; }
     public String getLName() { return lName; }
+    public String getClub() { return club; }
     public String getPosition() { return position; }
     public String getPhoneNum() { return phoneNum; }
     public String getEmail() { return email; }
@@ -34,6 +37,7 @@ public class RecordData {
 
     public void setFName(String fName) { this.fName = fName; }
     public void setLName(String lName) { this.lName = lName; }
+    public void setClub(String club) {this.club = club; }
     public void setPosition(String position) { this.position = position; }
     public void setPhoneNum(String phoneNum) { this.phoneNum = phoneNum; }
     public void setEmail(String email) { this.email = email; }

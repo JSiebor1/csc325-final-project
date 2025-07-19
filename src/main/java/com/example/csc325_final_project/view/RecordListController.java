@@ -27,6 +27,7 @@ public class RecordListController implements Initializable {
     @FXML private TableView<RecordData> tableView;
     @FXML private TableColumn<RecordData, String> fNameCol;
     @FXML private TableColumn<RecordData, String> lNameCol;
+    @FXML private TableColumn<RecordData, String> clubCol;
     @FXML private TableColumn<RecordData, String> positionCol;
     @FXML private TableColumn<RecordData, String> phoneNumCol;
     @FXML private TableColumn<RecordData, String> emailCol;
@@ -39,6 +40,7 @@ public class RecordListController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         fNameCol.setCellValueFactory(new PropertyValueFactory<>("fName"));
         lNameCol.setCellValueFactory(new PropertyValueFactory<>("lName"));
+        clubCol.setCellValueFactory(new PropertyValueFactory<>("club"));
         positionCol.setCellValueFactory(new PropertyValueFactory<>("position"));
         phoneNumCol.setCellValueFactory(new PropertyValueFactory<>("phoneNum"));
         emailCol.setCellValueFactory(new PropertyValueFactory<>("email"));
@@ -54,12 +56,13 @@ public class RecordListController implements Initializable {
                 for (QueryDocumentSnapshot recDoc : querySnapshot.getDocuments()) {
                     String fName = recDoc.getString("firstName");
                     String lName = recDoc.getString("lastName");
+                    String club = recDoc.getString("club");
                     String position = recDoc.getString("position");
                     String phoneNum = recDoc.getString("phoneNum");
                     String email = recDoc.getString("email");
                     String other = recDoc.getString("other");
 
-                    RecordData record = new RecordData(fName, lName, position, phoneNum, email, other);
+                    RecordData record = new RecordData(fName, lName, club, position, phoneNum, email, other);
                     Platform.runLater(() -> recordData.add(record));
                 }
 
