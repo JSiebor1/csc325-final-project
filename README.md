@@ -27,3 +27,6 @@ https://www.figma.com/design/kK0P88nF64wEueSn3IA0fU/csc325-final-project?node-id
 
 ## Youtrack
 https://csc325-finalproject.youtrack.cloud/
+
+## UML Design
+https://lucid.app/lucidchart/fbcc3981-11c3-4fab-b9ff-122c8bfecbfc/edit?viewport_loc=-3163%2C-2223%2C5630%2C2643%2C0_0&invitationId=inv_02afe43c-9587-4e5d-8174-5f6118a1fca6
